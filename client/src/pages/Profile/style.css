@@ -1,0 +1,100 @@
+.perfil-container {
+  background-color: #2f3848;
+  padding: 40px;
+  height: 100vh;
+  color: white;
+}
+
+.perfil-title {
+  margin-top: 40px;
+  color: white;
+}
+
+.verificandoCuenta-container {
+  padding: 40px;
+  margin-top: 0px;
+  width: 40%;
+  border-radius: 5px;
+
+  margin: 150px auto;
+  text-align: center;
+  font-size: 22px;
+  height: auto;
+  background-color: #2f3848;
+  color: white;
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 960px) {
+  .verificandoCuenta-container {
+    font-size: 18px;
+    width: 60%;
+  }
+}
+
+@media only screen and (min-device-width: 260px) and (max-device-width: 559px) {
+  .verificandoCuenta-container {
+    font-size: 16px;
+    width: 98%;
+  }
+}
+/** BOTONES **/
+.btn {
+  margin-top: 2rem;
+  font-family: var(--headingFont);
+  padding: 1.5rem;
+  font-size: 1.4;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn-recuperar-password {
+  background-color: var(--gris2);
+  color: var(--blanco);
+  font-weight: 700;
+  border: 1px solid rgb(175, 175, 175);
+}
+.btn-primario {
+  background-color: var(--gris2);
+  color: var(--blanco);
+}
+.btn-primario:hover {
+  background: var(--gris3);
+}
+.btn-secundario {
+  background-color: var(--gris1);
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-submit:hover {
+  background-color: var(--gris2);
+}
+.btn-blank {
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: transparent;
+}
+.cerrar-sesion {
+  color: var(--blanco);
+}
+
+@media (min-width: 768px) {
+  .contenedor-app {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  aside {
+    background-color: var(--blanco);
+    flex: 0 0 300px;
+  }
+  .seccion-principal {
+    flex: 1;
+  }
+}
